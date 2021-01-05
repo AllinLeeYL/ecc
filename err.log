@@ -1,0 +1,18 @@
+test/3/00_break.s: Assembler messages:
+test/3/00_break.s:1: Error: no such instruction: `break is not declared'
+Wrong Cmd in gcc -m32 test/3/00_break.s -o test/3/00_break.out 2>>err.log Err 256
+test/3/01_continue.s: Assembler messages:
+test/3/01_continue.s:1: Error: no such instruction: `continue is not declared'
+Wrong Cmd in gcc -m32 test/3/01_continue.s -o test/3/01_continue.out 2>>err.log Err 256
+test/3/03_func_1.s: Assembler messages:
+test/3/03_func_1.s:1: Error: no such instruction: `syntax error at line 3'
+Wrong Cmd in gcc -m32 test/3/03_func_1.s -o test/3/03_func_1.out 2>>err.log Err 256
+test/3/04_func_2.s: Assembler messages:
+test/3/04_func_2.s:1: Error: no such instruction: `syntax error at line 21'
+Wrong Cmd in gcc -m32 test/3/04_func_2.s -o test/3/04_func_2.out 2>>err.log Err 256
+test/3/05_func_3.s: Assembler messages:
+test/3/05_func_3.s:1: Error: no such instruction: `syntax error at line 1'
+Wrong Cmd in gcc -m32 test/3/05_func_3.s -o test/3/05_func_3.out 2>>err.log Err 256
+test/3/06_func_4.s: Assembler messages:
+test/3/06_func_4.s:1: Error: no such instruction: `syntax error at line 3'
+Wrong Cmd in gcc -m32 test/3/06_func_4.s -o test/3/06_func_4.out 2>>err.log Err 256

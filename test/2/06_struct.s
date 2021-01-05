@@ -1,0 +1,1 @@
+struct is not declared
