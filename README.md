@@ -4,25 +4,28 @@ Beautiful C Compiler. A simple C(subset of C) compiler.
 
 ## Directory
 
-./src -- Source code.
-    ./lexer.l -- Lexical analyzer.
-    ./parser.y -- Grammar analyzer.
-    ./utility.h/cpp -- Utility code file.
-    ./type.h/cpp -- Type code file.
-    ./tree.h/cpp -- Syntax tree and symbol table code file.
-    ./translater.h/cpp -- Translater which translater C code to AT&T x86 assembly code.
-    ./common.h -- Header file
-    ./pch.h -- Header file
-./test -- Test files.
-    ./1 -- Level 1 test files.
-    ./2 -- Level 2 test files.
-    ./3 -- Level 3 test files.
-    ./4 -- Level 4 test files.
-    ./type_check -- Type check test files.
-    ./mytest -- Temporary test files to debug.
-./test.out -- Sample output file.
-./main.out -- Output of `make` command.
-./err.log -- Log file of error output while testing using `make l1`, `make l2`, `make l3`, `make l4` or `make type`.
+* ./src -- Source code.
+  * ./lexer.l -- Lexical analyzer,
+  * ./parser.y -- Grammar analyzer.
+  * ./utility.h/cpp -- Utility code file.
+  * ./type.h/cpp -- Type code file.
+  * ./tree.h/cpp -- Syntax tree and symbol table code file.
+  * ./translater.h/cpp -- Translater which translater C code to AT&T x86 assembly code.
+  * ./common.h -- Header file
+  * ./pch.h -- Header file
+* ./test -- Test files.
+  * ./1 -- Level 1 test files.
+  * ./2 -- Level 2 test files.
+  * ./3 -- Level 3 test files.
+  * ./4 -- Level 4 test files.
+  * ./type_check -- Type check test files.
+  * ./mytest -- Temporary test files to debug.
+
+* ./test.out -- Sample output file.
+
+* ./main.out -- Output of `make` command.
+
+* ./err.log -- Log file of error output while testing using `make l1`, `make l2`, `make l3`, `make l4` or `make type`.
 
 ## Test Files
 
