@@ -1,18 +1,228 @@
-test/3/00_break.s: Assembler messages:
-test/3/00_break.s:1: Error: no such instruction: `break is not declared'
-Wrong Cmd in gcc -m32 test/3/00_break.s -o test/3/00_break.out 2>>err.log Err 256
-test/3/01_continue.s: Assembler messages:
-test/3/01_continue.s:1: Error: no such instruction: `continue is not declared'
-Wrong Cmd in gcc -m32 test/3/01_continue.s -o test/3/01_continue.out 2>>err.log Err 256
-test/3/03_func_1.s: Assembler messages:
-test/3/03_func_1.s:1: Error: no such instruction: `syntax error at line 3'
-Wrong Cmd in gcc -m32 test/3/03_func_1.s -o test/3/03_func_1.out 2>>err.log Err 256
-test/3/04_func_2.s: Assembler messages:
-test/3/04_func_2.s:1: Error: no such instruction: `syntax error at line 21'
-Wrong Cmd in gcc -m32 test/3/04_func_2.s -o test/3/04_func_2.out 2>>err.log Err 256
-test/3/05_func_3.s: Assembler messages:
-test/3/05_func_3.s:1: Error: no such instruction: `syntax error at line 1'
-Wrong Cmd in gcc -m32 test/3/05_func_3.s -o test/3/05_func_3.out 2>>err.log Err 256
-test/3/06_func_4.s: Assembler messages:
-test/3/06_func_4.s:1: Error: no such instruction: `syntax error at line 3'
-Wrong Cmd in gcc -m32 test/3/06_func_4.s -o test/3/06_func_4.out 2>>err.log Err 256
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/00_main.c >test/1/00_main.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/01_basic_out.c >test/1/01_basic_out.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/02_var_out.c >test/1/02_var_out.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/03_basic_in.c >test/1/03_basic_in.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/04_if.c >test/1/04_if.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/05_if_notin.c >test/1/05_if_notin.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/06_if_else.c >test/1/06_if_else.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/07_if_else_notin.c >test/1/07_if_else_notin.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/08_expr_add.c >test/1/08_expr_add.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/09_expr_sub.c >test/1/09_expr_sub.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/10_expr_mul.c >test/1/10_expr_mul.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/11_expr_div.c >test/1/11_expr_div.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/12_expr_mod.c >test/1/12_expr_mod.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/13_expr_minus.c >test/1/13_expr_minus.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/14_expr_eq.c >test/1/14_expr_eq.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/15_expr_gr.c >test/1/15_expr_gr.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/16_expr_lr.c >test/1/16_expr_lr.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/17_expr_ge.c >test/1/17_expr_ge.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/18_expr_le.c >test/1/18_expr_le.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/19_expr_ne.c >test/1/19_expr_ne.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/20_expr_or.c >test/1/20_expr_or.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/21_expr_and.c >test/1/21_expr_and.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/22_expr_not.c >test/1/22_expr_not.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/23_loop_while.c >test/1/23_loop_while.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/24_loop_for.c >test/1/24_loop_for.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/25_comment.c >test/1/25_comment.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/26_multi_var.c >test/1/26_multi_var.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/27_char.c >test/1/27_char.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/28_prior_1.c >test/1/28_prior_1.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/29_prior_2.c >test/1/29_prior_2.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/30_prior_3.c >test/1/30_prior_3.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/31_prior_4.c >test/1/31_prior_4.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/32_prior_5.c >test/1/32_prior_5.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/33_expr_multi_assign.c >test/1/33_expr_multi_assign.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/34_if_else_multista.c >test/1/34_if_else_multista.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/35_while_if.c >test/1/35_while_if.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/36_if_complex_expr.c >test/1/36_if_complex_expr.s 2>>err.log Err 32512
+sh: 1: ./main.out: not found
+Wrong Cmd in ./main.out <test/1/37_neg_div_mod.c >test/1/37_neg_div_mod.s 2>>err.log Err 32512
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/00_main.s -o test/1/00_main.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/01_basic_out.s -o test/1/01_basic_out.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/02_var_out.s -o test/1/02_var_out.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/03_basic_in.s -o test/1/03_basic_in.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/04_if.s -o test/1/04_if.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/05_if_notin.s -o test/1/05_if_notin.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/06_if_else.s -o test/1/06_if_else.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/07_if_else_notin.s -o test/1/07_if_else_notin.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/08_expr_add.s -o test/1/08_expr_add.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/09_expr_sub.s -o test/1/09_expr_sub.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/10_expr_mul.s -o test/1/10_expr_mul.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/11_expr_div.s -o test/1/11_expr_div.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/12_expr_mod.s -o test/1/12_expr_mod.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/13_expr_minus.s -o test/1/13_expr_minus.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/14_expr_eq.s -o test/1/14_expr_eq.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/15_expr_gr.s -o test/1/15_expr_gr.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/16_expr_lr.s -o test/1/16_expr_lr.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/17_expr_ge.s -o test/1/17_expr_ge.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/18_expr_le.s -o test/1/18_expr_le.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/19_expr_ne.s -o test/1/19_expr_ne.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/20_expr_or.s -o test/1/20_expr_or.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/21_expr_and.s -o test/1/21_expr_and.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/22_expr_not.s -o test/1/22_expr_not.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/23_loop_while.s -o test/1/23_loop_while.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/24_loop_for.s -o test/1/24_loop_for.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/25_comment.s -o test/1/25_comment.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/26_multi_var.s -o test/1/26_multi_var.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/27_char.s -o test/1/27_char.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/28_prior_1.s -o test/1/28_prior_1.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/29_prior_2.s -o test/1/29_prior_2.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/30_prior_3.s -o test/1/30_prior_3.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/31_prior_4.s -o test/1/31_prior_4.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/32_prior_5.s -o test/1/32_prior_5.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/33_expr_multi_assign.s -o test/1/33_expr_multi_assign.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/34_if_else_multista.s -o test/1/34_if_else_multista.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/35_while_if.s -o test/1/35_while_if.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/36_if_complex_expr.s -o test/1/36_if_complex_expr.out 2>>err.log Err 256
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib32/Scrt1.o: in function `_start':
+(.text+0x28): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+Wrong Cmd in gcc -m32 test/1/37_neg_div_mod.s -o test/1/37_neg_div_mod.out 2>>err.log Err 256
